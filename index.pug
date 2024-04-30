@@ -1,0 +1,44 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="../normalize-css/normalize.css")
+        link(rel="stylesheet", href="../style.css")
+        title Document
+    body 
+        .offcanvas  
+            .profile
+                img(src="../assets/logos/logo.png", alt="")
+                .user
+                    h2.user_name Users
+                    p.user_email example@demo.com
+            
+            nav.navbar 
+                .search-input 
+                   span 
+                     img(src="../assets/logos/search-icon.svg", alt="")
+                   input(type="search" placeholder="Search")
+                   ol.list  
+                    li.item 
+                        img(src="../assets/logos/home.svg", alt="")
+                        span Dashboard
+                    li.item 
+                        img(src="../assets/logos/chart.svg", alt="")
+                        span Check in 
+                    li.item
+                        img(src="../assets/logos/bell.svg", alt="")
+                        span Check Out                   
+                    li.item 
+                        img(src="../assets/logos/box.svg", alt="")
+                        span Room Services
+
+        ol.list.list-end
+         li.item 
+             img(src="../assets/logos/logout.svg", alt="")
+             span Logout
+         li.item 
+             img(src="../assets/logos/sun.svg", alt="")
+             span Light mode 
+             span 
+                img.l-d-mode(src="../assets/logos/light-dark-mode.svg", alt="light")

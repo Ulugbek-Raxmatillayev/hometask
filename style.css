@@ -1,0 +1,76 @@
+body {
+  background-color: #F2994A;
+  max-width: 1280px;
+  height: 910px;
+}
+body .offcanvas {
+  width: 335px;
+  height: 910px;
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+}
+body .offcanvas .profile {
+  display: flex;
+  font-family: sans-serif;
+  line-height: 10px;
+  width: 292.5px;
+  height: 80px;
+  gap: 10.6px;
+}
+body .offcanvas .profile img {
+  width: 5rem;
+  height: 100%;
+  border: 100%;
+  border-radius: 20px;
+}
+body .offcanvas .navbar {
+  margin-top: 5rem;
+}
+body .offcanvas .navbar .search-input {
+  border-radius: 10px;
+  width: 295px;
+  padding: 20px 10px;
+  height: 29.5px;
+  background: #f5f5f5;
+}
+body .offcanvas .navbar .search-input input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: sans-serif;
+}
+body .offcanvas .navbar .list {
+  margin-top: 5rem;
+  margin-left: -3rem;
+  list-style: none;
+  line-height: 60px;
+}
+body .offcanvas .navbar .list .item {
+  display: block;
+  align-items: center;
+  font-family: sans-serif;
+}
+body .offcanvas .navbar .list .item span {
+  padding-left: 1rem;
+}
+body .list-end {
+  margin-top: -9rem;
+  list-style: none;
+  line-height: 60px;
+  list-style-type: none;
+}
+body .list-end .item {
+  display: block;
+  align-items: center;
+  font-family: sans-serif;
+}
+body .list-end .item span {
+  padding-left: 1rem;
+}
+body .list-end .item span .l-d-mode {
+  position: relative;
+  top: 0.7rem;
+}
+
+/*# sourceMappingURL=style.css.map */
